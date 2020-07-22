@@ -97,7 +97,7 @@ body {
 }
 
 /* Article body */
-#article-container {
+.article-container {
   margin: 0 auto;
   width: 35%;
   margin-top: 40px;
@@ -180,4 +180,22 @@ body {
 
 #t-i-image img {
   width: 100%;
+}
+
+#vid-link {
+  color: #326891;
+}
+
+#vid-link:hover {
+  text-decoration: none;
+}
+
+#vid1 {
+  width: 100%;
+}
+
+#vid1-description {
+  color: #666;
+  margin: 0px;
+  font-size: 14px;
 }

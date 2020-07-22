@@ -199,3 +199,18 @@ body {
   margin: 0px;
   font-size: 14px;
 }
+
+#img2 {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#img2 img {
+  width: 100%;
+}
+
+#img2-description {
+  color: #666;
+  margin: 0px;
+  font-size: 13px;
+}

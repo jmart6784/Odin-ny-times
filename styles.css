@@ -158,22 +158,26 @@ body {
 }
 
 #theory-inflation {
-  border: 1px solid red;
   width: 55%;
   margin: 0 auto;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  margin-bottom: 300px;
 }
 
 #t-i-title {
   margin: 0px;
   font-size: 17px;
   align-self: end;
+  padding-left: 10px;
 }
 
 #t-i-description {
   margin: 0px;
   font-size: 12px;
   color: #666;
+  padding-left: 10px;
+}
+
+#t-i-image img {
+  width: 100%;
 }

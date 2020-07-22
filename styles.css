@@ -1,11 +1,15 @@
+* {
+  font-family: 'IBM Plex Serif', serif;
+}
+
 body {
   margin: 0px;
 }
 
-#main-container {
+/* #main-container {
   border: 1px solid red;
   height: 100vh;
-}
+} */
 
 #navbar {
   border-bottom: 1px solid rgb(221, 221, 221);
@@ -42,7 +46,7 @@ body {
   border-radius: 3px;
   padding: 10px;
   font-family: 'Doppio One', sans-serif;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 #nav-subscribe:hover {
@@ -58,4 +62,118 @@ body {
   color: rgb(18, 18, 18);
   font-family: 'Doppio One', sans-serif;
   font-size: 12px;
+}
+
+/* body */
+#ad1 img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+#article-title {
+  font-style: italic;
+  font-size: 35px;
+  margin: 0 auto;
+  width: 35%;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+#img1-div {
+  width: 65%;
+  /* height: 475px; */
+  margin: 0 auto;
+}
+
+#img1 {
+  width: 100%;
+}
+
+#img1-description {
+  color: #666;
+  font-size: 13px;
+  margin: 0px;
+}
+
+/* Article body */
+#article-container {
+  margin: 0 auto;
+  width: 35%;
+  margin-top: 40px;
+}
+
+#author {
+  font-family: 'Doppio One', sans-serif;
+  font-size: 13px;
+}
+
+#article-date {
+  display: grid;
+  grid-template-columns: 7fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+#date {
+  font-size: 11px;
+  justify-self: start;
+}
+
+.media-img {
+  height: 30px;
+  width: 30px;
+}
+
+.article-body {
+  font-size: 18px;
+}
+
+#ty-sub {
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgb(194, 194, 194);
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+#ty {
+  font-family: 'Doppio One', sans-serif;
+  font-size: 14px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#ty-sub a {
+  display: block;
+  text-decoration: none;
+  font-family: 'Doppio One', sans-serif;
+  color: rgb(50, 104, 145);
+  font-size: 14px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#theory-inflation {
+  border: 1px solid red;
+  width: 55%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 300px;
+}
+
+#t-i-title {
+  margin: 0px;
+  font-size: 17px;
+  align-self: end;
+}
+
+#t-i-description {
+  margin: 0px;
+  font-size: 12px;
+  color: #666;
 }
